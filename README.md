@@ -1,1 +1,1 @@
-# manager_app
+# selmag-parent
