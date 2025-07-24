@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Новый товар &ndash; Сельмаг</title>
+</head>
+<body>
+<a data-th-href="@{/catalogue/products/list}">&larr; К списку товаров</a><br>
+<h1>Новый товар</h1>
+<form method="post" data-th-action="@{/catalogue/products/create}">
+    <label>Название: <input type="text" name="title"></label><br>
+    <label>Описание: <input type="text" name="details"></label><br>
+    <button type="submit">Создать новый товар</button>
+</form>
+</body>
+</html>
